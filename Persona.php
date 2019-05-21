@@ -1,6 +1,6 @@
 <?php
 
-class Persona
+class Persona 
 {
     private $nombre;
     private $dni;
@@ -15,7 +15,8 @@ class Persona
     {
         return $this->nombre;
     }
-    public function dameDNI()
+
+    public function dameDni()
     {
         return $this->dni;
     }
